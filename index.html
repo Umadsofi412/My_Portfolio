@@ -27,27 +27,27 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-house-user nav__icon"></i>Home
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-house-user nav__icon "></i>Home
               </a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">
+              <a href="#about" class="nav__link" >
                 <i class="uil uil-user-circle nav__icon"></i>About
               </a>
             </li>
             <li class="nav__item">
-              <a href="#skills" class="nav__link">
+              <a href="#skills" class="nav__link" >
                 <i class="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
             <li class="nav__item">
-              <a href="#experince " class="nav__link">
+              <a href="#experince" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Experince
               </a>
             </li>
             <li class="nav__item">
-              <a href="#portflio" class="nav__link">
+              <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i>Portfolio
               </a>
             </li>
@@ -60,6 +60,8 @@
           <i class="uil uil-times nav_close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Theme Change button -->
+          <i class="uil uil-moon-eclipse change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -385,7 +387,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" id= "experince">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My Journey</span>
 
@@ -948,10 +950,42 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
-
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Umad Sofi</h1>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contacts" class="footer__link">Contact</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"  target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; Umad. All rights reserved</p>
+      </div>
     </footer>
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-circle-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src="/assets/js/swiper-bundle.min.js"></script>
 
